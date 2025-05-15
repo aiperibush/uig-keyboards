@@ -1,0 +1,22 @@
+{
+  "name": "Uyghur Modified",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Uyghur modified keyboard with all letters on keyboard",
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "permissions": [
+    "input"
+  ],
+  "input_components": [
+    {
+      "name": "Uyghur modified keyboard",
+      "type": "ime",
+      "id": "all-xkb-layouts-cn(ug)",
+      "description": "Uyghur modified keyboard",
+      "language": "ug",
+      "layouts": ["cn(ug)"]
+    }
+  ]
+}
