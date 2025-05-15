@@ -1,6 +1,16 @@
 # uig-keyboards
 
-This is a suite of different keyboard software to install the Uyghur keyboard on different operating systems, including Linux, Mac, Windows, and iOS. 
+These are the files required to implement a chromeos uyghur language extension. In order to install, follow the following instructions:
+
+1) Open Chrome and go to chrome://extensions
+
+2) Toggle Developer Mode (top right)
+
+3) Click "Load unpacked"
+
+4) Select your folder (e.g., my-keyboard-extension/)
+
+5) After it loads, your IME should appear as an available input method under chrome://settings/languages
 
 Existing Uyghur keyboards overlay different Uyghur characters on top of each other, requiring the use of the shift button to access part of the alphabet. Although this system technically works, it makes the affected letters less accessible to users, which is especially significant because two of these letters, خ‎ and ئۆ‎, are quite important, with one of them being a vowel and the other being a commonly used consonant. We moved these letters to new positions on the keyboard, often replacing lesser used symbols such as \ or - with a letter, instead making them accessible via the shift key.
 
